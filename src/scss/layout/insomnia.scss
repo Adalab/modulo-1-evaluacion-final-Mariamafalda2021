@@ -5,38 +5,25 @@
 }
 .small-insomnia {
     color: #8ccbea;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.14;
-    letter-spacing: normal;
 }
 
 .title-insomnia {
     margin-top: 15px;
     margin-bottom: 20px;
-    font-family: Roboto;
+    font-family: 'Roboto Slab', serif;
     font-size: 24px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
 
 }
 
 .text-insomnia {
     margin-right: 15px;
     margin-bottom: 30px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
     font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
 }
 
 .btn-insomnia {
@@ -44,7 +31,25 @@
     color: #f26002;
     border: solid 2px #f26002;
     border-radius: 22.5px;
-    padding: 0 25px 0 26px;
+    padding: 10px 25px 10px 26px;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-weight: bold;
     line-height: 2.25;
+}
+
+@media (min-width: 768px){
+    .insomnia {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media (min-width: 1024px){
+    .insomnia {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .btn-insomnia{
+        padding: 10px 67px 10px 67px;
+    }
 }

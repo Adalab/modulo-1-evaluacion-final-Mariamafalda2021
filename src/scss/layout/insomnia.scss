@@ -36,6 +36,12 @@
     font-size: 16px;
     font-weight: bold;
     line-height: 2.25;
+        &:hover {
+            background-color: #f26002;
+            color: white;
+            border: none;
+            transition-duration: 0.5s;
+        }
 }
 
 @media (min-width: 768px){

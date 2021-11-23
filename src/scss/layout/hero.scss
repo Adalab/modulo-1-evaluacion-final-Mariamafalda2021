@@ -16,17 +16,34 @@
   }
   */
   .title {
-      width: 290px;
+      width: 100%;
       height: 110px;
       text-align: center;
       color: white;
       background-color: aquamarine;
+      font-family: Roboto;
+      font-size: 42px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+
   }
   .hero-text {
-      width: 290px;
+      width: 100%;
       min-height: 21px;
       color: white;
       text-align: center;
+      margin: 20px 0 50px 15px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+ 
   }
   .hero-btn {
       background-color: white;
@@ -35,5 +52,28 @@
       width: 45px;
       min-height: 45px;
       display: block;
-      
   }
+
+  @media (min-width: 768px) {
+      .title {
+        font-size: 75px;
+
+      }
+      .hero-text {
+        font-size: 30px;
+      }
+      .hero-btn {
+        font-size: 16px;
+      }
+  }
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 75px;
+    }
+    .hero-text {
+      font-size: 30px;
+    }
+    .hero-btn {
+      font-size: 16px;
+    }
+}

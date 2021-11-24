@@ -16,23 +16,26 @@
     border-radius: 50%;
     border: none;
     color: $orangeDeco;
-    transform: translateY(-25px);
+    animation: boing .3s alternate infinite ease-in; 
+}
+@keyframes boing {
+    0% {
+        transform: translateY(-70%)
+    }
+    100% {
+        transform: translateY(-35%);
+
+    }
 }
 .menu {
     display: flex;
     flex-direction: column;
 }
 
-.things {
+.things, .social{
     padding-bottom: 30px;
     text-align: center;
 }
-
-.social {
-    padding-bottom: 30px;
-    text-align: center;
-}
-
 .menu-items {
     color: $textWhite;
     font-family: $roboto;

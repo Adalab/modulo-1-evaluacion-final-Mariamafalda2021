@@ -1,21 +1,21 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #304268;
+    background-color: $dark-grey-blue;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: $textWhite;
 }
 
 .footer-button {
     width: 45px;
     height: 45px;
     padding: 11px 12.4px 10px 12px;
-    box-shadow: 0 2px 4px 0 black;
-    background-color: white;
+    box-shadow: 0 2px 4px 0 $textBlack;
+    background-color: $textWhite;
     border-radius: 50%;
     border: none;
-    color: #f26002;
+    color: $orangeDeco;
     transform: translateY(-25px);
 }
 .menu {
@@ -34,8 +34,8 @@
 }
 
 .menu-items {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: $textWhite;
+    font-family: $roboto;
     font-size: 16px;
     font-weight: 50;
     line-height: 1.88;
@@ -49,9 +49,9 @@
 }
 
 .heart {
-    color: 
-    #f26002;
+    color: $orangeDeco;
 }
+
 @media (min-width: 768px){
     .menu {
         flex-direction: row;

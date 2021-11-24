@@ -5,14 +5,14 @@
 }
 .small-insomnia {
     color: #8ccbea;
-    font-family: 'Roboto', sans-serif;
+    font-family: $roboto;
     font-size: 14px;
 }
 
 .title-insomnia {
     margin-top: 15px;
     margin-bottom: 20px;
-    font-family: 'Roboto Slab', serif;
+    font-family: $robotoSlab;
     font-size: 24px;
     font-weight: bold;
 
@@ -21,15 +21,15 @@
 .text-insomnia {
     margin-right: 15px;
     margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $roboto;
     color: #4a4a4a;
     font-size: 18px;
 }
 
 .btn-insomnia {
-    background-color: white;
-    color: #f26002;
-    border: solid 2px #f26002;
+    background-color: $textWhite;
+    color: $orangeDeco;
+    border: solid 2px $orangeDeco;
     border-radius: 22.5px;
     padding: 10px 25px 10px 26px;
     font-family: 'Roboto', sans-serif;
@@ -37,8 +37,8 @@
     font-weight: bold;
     line-height: 2.25;
         &:hover {
-            background-color: #f26002;
-            color: white;
+            background-color: $orangeDeco;
+            color: $textWhite;
             border: none;
             transition-duration: 0.5s;
         }

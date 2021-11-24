@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     width: 75%;
-    margin: 0px auto 20px auto;
+    margin: 0px auto 50px auto;
     position: relative;
     
   }
@@ -26,7 +26,7 @@
       height: 110px;
       text-align: center;
       color: white;
-      font-family: 'Roboto Slab', serif;
+      font-family: $robotoSlab;
       font-size: 2.8rem;
       font-weight: bold;
       text-transform: uppercase;
@@ -35,10 +35,10 @@
   .hero-paragraph {
       width: 100%;
       min-height: 21px;
-      color: white;
+      color: $textWhite;
       text-align: center;
       margin: 20px 0 50px 15px;
-      font-family: 'Roboto', sans-serif;
+      font-family: $roboto;
       font-size: 16px;
  
   }
@@ -52,4 +52,10 @@
       border: none;
       width: 45px;
       min-height: 45px;
+  }
+
+@media (min-width: 1024px){
+    .hero-text {
+        margin: 0px auto 10px auto;
+    }
   }
